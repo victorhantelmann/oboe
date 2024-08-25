@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 #include "WavRIFFChunkHeader.h"
-#include "stream/InputStream.h"
+#include "../../oboe/samples/parselib/src/main/cpp/stream/InputStream.h"
 
 namespace parselib {
 

@@ -17,8 +17,8 @@
 #include <android/log.h>
 
 // parselib includes
-#include <stream/MemInputStream.h>
-#include <wav/WavStreamReader.h>
+#include "../../../../../parselib/src/main/cpp/stream/MemInputStream.h"
+#include "../../../../../parselib/src/main/cpp/wav/WavStreamReader.h"
 
 // local includes
 #include "OneShotSampleSource.h"

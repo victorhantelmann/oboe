@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-#include <string.h>
+#include <cstring>
 
-#include "wav/WavStreamReader.h"
+#include "../../../../../parselib/src/main/cpp/wav/WavStreamReader.h"
 
 #include "OneShotSampleSource.h"
 

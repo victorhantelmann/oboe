@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#include "stream/InputStream.h"
+#include "../../oboe/samples/parselib/src/main/cpp/stream/InputStream.h"
 
-#include "WavChunkHeader.h"
+#include "../../oboe/samples/parselib/src/main/cpp/wav/WavChunkHeader.h"
 
 namespace parselib {
 

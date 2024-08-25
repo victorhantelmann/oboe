@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 #include <algorithm>
-#include <string.h>
+#include <cstring>
 
 #include <android/log.h>
 
-#include "stream/InputStream.h"
+#include "../stream/InputStream.h"
 
-#include "AudioEncoding.h"
-#include "WavRIFFChunkHeader.h"
-#include "WavFmtChunkHeader.h"
-#include "WavChunkHeader.h"
-#include "WavStreamReader.h"
+#include "../../oboe/samples/parselib/src/main/cpp/wav/AudioEncoding.h"
+#include "../../oboe/samples/parselib/src/main/cpp/wav/WavRIFFChunkHeader.h"
+#include "../../oboe/samples/parselib/src/main/cpp/wav/WavFmtChunkHeader.h"
+#include "../../oboe/samples/parselib/src/main/cpp/wav/WavChunkHeader.h"
+#include "../../oboe/samples/parselib/src/main/cpp/wav/WavStreamReader.h"
 
 static const char *TAG = "WavStreamReader";
 

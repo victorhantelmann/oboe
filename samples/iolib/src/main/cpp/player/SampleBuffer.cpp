@@ -17,9 +17,8 @@
 #include "SampleBuffer.h"
 
 // Resampler Includes
-#include <resampler/MultiChannelResampler.h>
-
-#include "wav/WavStreamReader.h"
+#include "../../../../../../../oboe/src/flowgraph/resampler/MultiChannelResampler.h"
+#include "../../../../../../../oboe/samples/parselib/src/main/cpp/wav/WavStreamReader.h"
 
 using namespace RESAMPLER_OUTER_NAMESPACE::resampler;
 

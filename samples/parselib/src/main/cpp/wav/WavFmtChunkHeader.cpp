@@ -15,7 +15,7 @@
  */
 #include <android/log.h>
 
-#include "stream/InputStream.h"
+#include "../../oboe/samples/parselib/src/main/cpp/stream/InputStream.h"
 
 #include "WavFmtChunkHeader.h"
 
