@@ -27,6 +27,7 @@ include_directories(
 add_executable(
 		testOboe
 		testAAudio.cpp
+		testAudioClock.cpp
 		testFlowgraph.cpp
 		testFullDuplexStream.cpp
 		testResampler.cpp
@@ -43,3 +44,4 @@ add_executable(
         )
 
 target_link_libraries(testOboe gtest oboe)
+target_link_options(testOboe PRIVATE "-Wl,-z,max-page-size=16384")
