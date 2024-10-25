@@ -25,7 +25,7 @@
 template<class iter_type>
 using _ef = std::function<void(iter_type, iter_type)>;
 
-// Only Effect Descriptions should use this namespace
+// Only FXBoard Descriptions should use this namespace
 namespace Effect {
 
     class ParamType {

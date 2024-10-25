@@ -16,7 +16,7 @@ DRAFT for testing image embedding.
       Device: setect output device by type.<br/>
       Format: note that the 24 and 32-bit formats are only supported in Android 12+<br/>
       MMAP: will be disabled if device does not support MMAP<br/>
-      Effect: will enable a simple effect, may prevent LOW_LATENCY<br/>
+      FXBoard: will enable a simple effect, may prevent LOW_LATENCY<br/>
       Convert: conversion done in Oboe may allow you to get LOW_LATENCY<br/>
       SRC: sample rate conversion quality<br/>
       <br/><br/><br/><br/><br/><br/><br/><br/>

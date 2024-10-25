@@ -44,6 +44,6 @@ public:
         };
     }
 };
-} //namespace Effect
+} //namespace FXBoard
 
 #endif //ANDROID_FXLAB_WHITECHORUSDESCRIPTION_H

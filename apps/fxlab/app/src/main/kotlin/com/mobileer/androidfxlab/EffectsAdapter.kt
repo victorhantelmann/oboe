@@ -37,7 +37,7 @@ object EffectsAdapter :
     val effectList = arrayListOf<Effect>()
     lateinit var mRecyclerView: RecyclerView
 
-    // This class adapts view in effect_view.xml for Effect class
+    // This class adapts view in effect_view.xml for FXBoard class
     class EffectsHolder(val parentView: ViewGroup) : RecyclerView.ViewHolder(parentView) {
         private val layoutContainer: LinearLayout = parentView.findViewById(R.id.effectContainer)
         lateinit var effect: Effect

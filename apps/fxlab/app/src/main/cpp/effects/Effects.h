@@ -39,20 +39,20 @@ static int SAMPLE_RATE = 48000;
 #include "descrip/SlapbackDescription.h"
 
 constexpr std::tuple<
-        Effect::PassthroughDescription,
-        Effect::TremoloDescription,
-        Effect::VibratoDescription,
-        Effect::GainDescription,
-        Effect::FlangerDescription,
-        Effect::WhiteChorusDescription,
-        Effect::FIRDescription,
-        Effect::IIRDescription,
-        Effect::AllPassDescription,
-        Effect::DoublingDescription,
-        Effect::OverdriveDescription,
-        Effect::DistortionDescription,
-        Effect::EchoDescription,
-        Effect::SlapbackDescription
+    FXBoard::PassthroughDescription,
+    FXBoard::TremoloDescription,
+    FXBoard::VibratoDescription,
+    FXBoard::GainDescription,
+    FXBoard::FlangerDescription,
+    FXBoard::WhiteChorusDescription,
+    FXBoard::FIRDescription,
+    FXBoard::IIRDescription,
+    FXBoard::AllPassDescription,
+    FXBoard::DoublingDescription,
+    FXBoard::OverdriveDescription,
+    FXBoard::DistortionDescription,
+    FXBoard::EchoDescription,
+    FXBoard::SlapbackDescription
 > EffectsTuple{};
 
 constexpr size_t numEffects = std::tuple_size<decltype(EffectsTuple)>::value;

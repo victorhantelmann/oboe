@@ -29,7 +29,7 @@ which operate on the range between two numeric iterators in place. The `DuplexEn
 buffer of samples it receives. 
 
 The effects folder contains the classes of various implemented effects. It also contains `Effects.h` where a global tuple of 
-all the Effect descriptions implemented lives. The description folder contains the description for all of the effects. 
+all the FXBoard descriptions implemented lives. The description folder contains the description for all of the effects. 
 Each description takes the form of a class with static methods providing information regarding the effect (including name, 
 category, parameters, and a factory method).
 

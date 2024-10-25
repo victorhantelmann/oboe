@@ -29,5 +29,5 @@ public:
         };
     }
 };
-} //namespace Effect
+} //namespace FXBoard
 #endif //ANDROID_FXLAB_DOUBLINGDESCRIPTION_H

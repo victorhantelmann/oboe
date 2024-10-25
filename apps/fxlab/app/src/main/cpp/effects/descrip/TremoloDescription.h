@@ -42,5 +42,5 @@ public:
                 TremoloEffect {paramArr[0], paramArr[1]}};
     }
 };
-} // namespace Effect
+} // namespace FXBoard
 #endif // ANDROID_FXLAB_TREMOLODESCRIPTION_H

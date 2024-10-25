@@ -45,7 +45,7 @@ TEST(TypeTests, Templating) {
     }
     auto arr = std::array<float, 1> {10};
     auto data = std::array<int, 5> {1, 2, 3, 4, 5};
-    std::function<void(int*, int*)> fe = std::get<Effect::GainDescription>(EffectsTuple).buildEffect<int*>(arr);
+    std::function<void(int*, int*)> fe = std::get<FXBoard::GainDescription>(EffectsTuple).buildEffect<int*>(arr);
     fe(data.begin(), data.end());
     EXPECT_EQ(data[0], 2);
 
