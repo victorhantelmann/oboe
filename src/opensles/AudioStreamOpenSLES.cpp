@@ -183,7 +183,7 @@ int32_t AudioStreamOpenSLES::estimateNativeFramesPerBurst() {
         // Find a multiple of framesPerBurst >= framesPerHighLatencyBuffer.
         int32_t numBursts = roundUpDivideByN(framesPerHighLatencyBuffer, framesPerBurst);
         framesPerBurst *= numBursts;
-        LOGD("AudioStreamOpenSLES:%s() NOT low latency, numBursts = %d, mSampleRate = %d, set framesPerBurst = %d",
+        LOGD("AudioStreamOpenSLES:%s() NOT low latency, numBursts = %d, sample_rate = %d, set framesPerBurst = %d",
              __func__, numBursts, mSampleRate, framesPerBurst);
     }
     return framesPerBurst;
