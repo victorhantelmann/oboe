@@ -44,7 +44,7 @@ public:
     /**
      * Every time the playback stream requires data this method will be called.
      *
-     * @param audioStream the audio stream which is requesting data, this is the mPlayStream object
+     * @param audioStream the audio stream which is requesting data, this is the output_stream object
      * @param audioData an empty buffer into which we can write our audio data
      * @param numFrames the number of audio frames which are required
      * @return Either oboe::DataCallbackResult::Continue if the stream should continue requesting data
